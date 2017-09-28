@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://mysterious-garden-26730.herokuapp.com/';
   // Api settings for dev only
   // const inDevelopment = window.location.hostname === 'localhost';
   // return inDevelopment ? 'http://localhost:3001/' : '/';

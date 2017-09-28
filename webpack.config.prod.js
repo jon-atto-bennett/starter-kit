@@ -48,6 +48,7 @@ export default {
         minifyCSS: true,
         minifyURLs: true
       },
+      // TrackJS online error logging - paid service
       // Properties you define here are available in index.html
       // using htmlWebpackPlugin.options.varName
       // trackJSToken: '43ad216f57d94259968435894490a5c7'
